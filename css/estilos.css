@@ -1,0 +1,479 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    font-family: sans-serif;
+}
+
+
+.cabezera{
+    display: flex;
+    background-color: azure;
+    height: 80px;
+    color: black;
+    font-size: 25px;
+    
+    
+
+}
+
+
+.Menu-caja2{
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+
+.crecer{
+    flex-grow: 1;
+}
+
+.menuboton{
+    text-decoration: none;
+    color: black;
+    align-self: center;
+    
+}
+
+.botonazul{
+ 
+    text-decoration: none;
+    align-self: center;
+    background-color: blue;
+    color: white;
+    padding: .5rem;
+}
+
+
+.logovacuna-caja1{
+
+    align-self: center;
+    font-size: 39px;
+    color: blue;
+    
+
+}   
+
+
+/*segunda parte*/
+
+.parte2{
+    display: flex;
+    
+}
+
+.crecer{
+    flex-grow: 1;
+}
+.enfermera{
+    height: 600px;
+    width: 510px;
+    margin: 3rem;
+}
+
+.parte2 h1{
+    font-size: 40px;
+    padding: .5rem;
+
+}
+
+
+.parte2 p{
+    font-size: 20px;
+    padding: .5rem;
+
+}
+.floating-card {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 90px;
+    top: 530px;
+    width: 65%;
+    min-width: 660px;
+    height: 100px;
+    font-size: 1.6rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 10px 1px;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+
+.floating-card-left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.floating-card-icon {
+    width: 12px;
+    height: 12px;
+    align-self: baseline;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 3px 4px;
+    margin: 5px 10px 0px 20px;
+    padding: 1px;
+    background: center center / contain no-repeat;
+}
+
+
+
+.pin-icon {
+    background-image: url(assets/icons/pin-blue.svg);
+}
+.calendar-icon {
+    background-image: url(assets/icons/pin-blue.svg);
+}
+.floatin-card-right {
+    justify-self: center;
+    padding: 10px;
+}
+
+
+
+/*parte 3*/
+
+
+
+.parte3{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*parte 4*/
+
+.parte4{
+    width: 50%;
+}
+
+.titulo-why{
+    font-size: 35px;
+}
+
+
+.titulo-texto{
+    font-size: 25px;
+}
+
+/*parte 4parte2*/
+
+.crecer{
+    flex-grow: 1;
+ 
+ }
+ 
+
+
+.parte4parte2{
+
+    display: flex;
+
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.parte4parte2 .caja{
+    width: 330px;
+    height: 345px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.75);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.caracteristicas-cajas{
+    padding: 1rem;
+    border: solid white;
+}
+
+.icon i{
+    color: blue;
+    height: 50px;
+    width: 50px;
+}
+
+.titoloscajas{
+    font-size: 30px;
+}
+
+.alinearcajass{
+    align-self: center;
+    background-color: aqua;
+}
+
+/*parte 5*/
+
+.parte5{
+    display: flex;
+}
+
+.parte5vacuna1{
+    display: flex;
+
+}
+
+/*parte 6*/
+
+.parte6{
+    display: flex;
+}
+
+
+.articuloscontacto{
+    background-color: aqua;
+    border: solid;
+    width: 45%;
+    height: 45;
+    display: flex;
+}
+
+.flex{
+    display: flex;
+}
+
+.letramaspequeña{
+    font-size: 40px;
+}
+
+
+
+
+/*footer */
+
+footer{
+    
+    display: flex;
+    font-size: 30px;
+    background-color: azure;
+    padding: 1rem;
+    
+}
+
+footer ul{
+    list-style: none;
+    
+}
+
+.crecer{
+    flex-grow: 1;
+}
+
+
+
+/* seccion por separado */
+
+.cajaprincipal{
+    
+    padding: 1rem;
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: 50%;
+    font-size: 50px;
+    margin: 3rem;
+}
+
+.cajaas{
+    
+    
+    margin: 10px;
+
+}
+
+.cajacall{
+
+}
+
+
+
+.crecer{
+    flex-grow: 1;
+}
+
+.centro{
+    text-align: center;
+}
+
+
+.emergency{
+    
+    width: 50%;
+}
+
+.emergency-titulo{
+    font-size: 66px;
+}
+
+
+.emergency p{
+    font-size: 35px;
+}
+
+.editarcubrebocas{
+   
+    
+        width: 50%;
+
+}
+
+.editarcubrebocas img{
+    width: 700px;
+    height: 800px;
+}
+
+
+.parte5vacuna1{
+    font-size: 40px;
+}
+
+.preparation-titulo{
+    font-size: 55px;
+}
+
+.preparation-texto{
+    font-size: 28px;
+}
+
+
+.preparation{
+    margin: 90px;
+}
+
+
+
+.parte4parte2 .caja{
+    width: 330px;
+    height: 345px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.75);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.caracteristicas-cajas{
+    padding: 1rem;
+    border: solid white;
+}
+
+.contact-card {
+    
+    box-shadow: rgba(0, 0, 0, 0.20) 1px 1px 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.preparacion-icons{
+
+    box-shadow: rgba(0, 0, 0, 0.20) 1px 1px 10px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+
+
+.lets-stop-this{
+    font-size: 34px;
+}
+
+
+.centro p{
+    font-size: 40px;
+}
+
+
+
+
+.botonazul a{
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+
+
+.footer{
+    display: flex;
+    
+}
+
+.titulares{
+   
+    background-color: rgba(58, 113, 211 );
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    
+
+}
+
+footer{
+    background-color: rgb(177, 194, 223);
+    
+}
+
+.botonazul{
+
+    background-color: rgba(58, 113, 211 );
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.20);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.75s;
+}
+
+.botonazul a{
+    font-size: 33px;
+}
+
+footer{
+    background-color: rgb(177, 194, 223);
+    
+}
+
+.titulares{
+    background-color: rgb(177, 194, 223);
+}
+
+
+.logovacuna-caja1 p{
+   color: #1f3e72;
+
+}
+
+h2{
+    color: #1f3e72;
+
+}
+
+h1{
+    color: #1f3e72;
+
+}
